@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(135deg, #000 50%, #ffd90075 50%);
+}
+/* Estilos para la imagen */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para justificar el texto */
+.justificado {
+    text-align: justify;
+}
+/* Estilo para reducir el margen inferior de las imágenes en el carrusel vertical */
+.carousel-vertical .carousel-item img {
+    margin-bottom: 50px; /* Ajusta este valor según tus necesidades */
+}
+/* Estilos para la galería de logos */
+.logo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta según tus necesidades */
+}
+
+.logo-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Espacio entre logos, ajusta según sea necesario */
+}
+/* Estilo adicional para la sección de Contacto */
+#contacto {
+    margin-top: 20px;
+}
+
+#contacto i {
+    margin-right: 10px;
+}
+
+#contacto a {
+    color: #ecc308b7; /* Cambia el color según tus preferencias */
+}
+
